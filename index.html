@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" ></script>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  Travel
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#Usa">Les US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Mexico">L'amérique latine</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Asie">L'Asie</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">La ruisie</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Une destination" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Rechercher</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="http://blog.amplitudes.com/wp-content/uploads/2017/04/shutterstock_349690133_Painted-ladies-and-San-Francisco-view-USA_OPTIM.jpg" class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="http://blog.amplitudes.com/wp-content/uploads/2017/04/shutterstock_159695237_Morning-Glory-Pool-in-Yellowstone-National-Park-of-Wyoming-USA_-OPTIM.jpg" class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="http://blog.amplitudes.com/wp-content/uploads/2017/04/shutterstock_219796621_Colorful-spring-flowers-in-holland-garden-Keukenhof-Netherlands_OPTIM.jpg" class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-lg">
+                <div class="card" >
+                    <img src="https://www.partir.com/images/incontournables/philippines-coron.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Les philippines </h5>
+                      <p class="card-text">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic earum quos veritatis
+                           laudantium eveniet incidunt, rerum voluptas labore, 
+                          quis accusantium commodi necessitatibus nemo expedita facere dicta dolorem quibusdam, animi ipsam.
+                      </p>
+                    </div>
+                    <div class="card-body">
+                      <a href="#" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#information">M'informé</a>
+                    </div>
+                  </div>    
+            </div>
+            <div class="col-sm-12 col-lg">
+                <div class="card" >
+                    <img src="https://www.partir.com/images/activites/bahamas-activites-plongee.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Les bahamas </h5>
+                      <p class="card-text">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic earum quos veritatis
+                           laudantium eveniet incidunt, rerum voluptas labore, 
+                          quis accusantium commodi necessitatibus nemo expedita facere dicta dolorem quibusdam, animi ipsam.
+                      </p>
+                    </div>
+                    <div class="card-body">
+                      <a href="#" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#information">M'informé</a>
+                    </div>
+                  </div>    
+            </div>
+        </div>
+        <main>
+            <hr>
+            <section id="Usa">
+                <div class="row featurette">
+                    <div class="col-md-7">
+                      <h2 class="featurette-heading">Les US à porter de main <span class="text-muted">n'attendez plus.</span></h2>
+                      <p class="lead">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic earum quos veritatis
+                        laudantium eveniet incidunt, rerum voluptas labore, 
+                       quis accusantium commodi necessitatibus nemo expedita facere dicta dolorem quibusdam, animi ipsam.
+                       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic earum quos veritatis
+                        laudantium eveniet incidunt, rerum voluptas labore, 
+                       quis accusantium commodi necessitatibus nemo expedita facere dicta dolorem quibusdam, animi ipsam.
+                       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic earum quos veritatis
+                        laudantium eveniet incidunt, rerum voluptas labore, 
+                       quis accusantium commodi necessitatibus nemo expedita facere dicta dolorem quibusdam, animi ipsam.
+                       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic earum quos veritatis
+                        laudantium eveniet incidunt, rerum voluptas labore, 
+                       quis accusantium commodi necessitatibus nemo expedita facere dicta dolorem quibusdam, animi ipsam.
+                      </p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="https://www.mada-hotels-consultant.com/wp-content/uploads/2015/03/16148.jpg" alt="" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalusa">
+                    </div>
+                  </div>
+            </section>
+            <hr>
+            <section id="Mexico">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-12" >
+                        <h2 class="featurette-heading">Découvrez les secret de amérique latine <span class="text-muted"> grandeur nature.</span></h2>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                  Le Perou
+                                </button>
+                              </h2>
+                              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <img src="https://media.routard.com/image/60/2/fb-sites-amerique-sud-2.1533602.jpg" alt="" class="img-fluid">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                  Le Brésil
+                                </button>
+                              </h2>
+                              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <img src="https://media.routard.com/image/41/4/bresil-jericoacoara.1533414.142.jpg" class="img-fluid" alt="">    
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                  L'Équateur
+                                </button>
+                              </h2>
+                              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <img src="https://media.routard.com/image/42/2/equateur-cotopaxi.1533422.142.jpg"  class="img-fluid" alt="">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section id="Asie">
+                <h2 class="featurette-heading">L'Asie<span class="text-muted"> </span></h2>
+                <div class="row">
+                    <div class="col-sm-12 col-lg-6">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic earum quos veritatis
+                        laudantium eveniet incidunt, rerum voluptas labore, 
+                       quis accusantium commodi necessitatibus nemo expedita facere dicta dolorem quibusdam, animi ipsam.
+                       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic earum quos veritatis
+                        laudantium eveniet incidunt, rerum voluptas labore, 
+                       quis accusantium commodi necessitatibus nemo expedita facere dicta dolorem quibusdam, animi ipsam.
+                       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic earum quos veritatis
+                        laudantium eveniet incidunt, rerum voluptas labore, 
+                       quis accusantium commodi necessitatibus nemo expedita facere dicta dolorem quibusdam, animi ipsam.
+                       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic earum quos veritatis
+                        laudantium eveniet incidunt, rerum voluptas labore, 
+                       quis accusantium commodi necessitatibus nemo expedita facere dicta dolorem quibusdam, animi ipsam.
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/10/2d/bd/asia.jpg?w=500&h=300&s=1" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-lg-6">
+                        <img src="https://www.magvoyage.com/couverture/destinations-touristiques-populaire-en-asie.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic earum quos veritatis
+                        laudantium eveniet incidunt, rerum voluptas labore, 
+                       quis accusantium commodi necessitatibus nemo expedita facere dicta dolorem quibusdam, animi ipsam.
+                       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic earum quos veritatis
+                        laudantium eveniet incidunt, rerum voluptas labore, 
+                       quis accusantium commodi necessitatibus nemo expedita facere dicta dolorem quibusdam, animi ipsam.
+                       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic earum quos veritatis
+                        laudantium eveniet incidunt, rerum voluptas labore, 
+                       quis accusantium commodi necessitatibus nemo expedita facere dicta dolorem quibusdam, animi ipsam.
+                       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic earum quos veritatis
+                        laudantium eveniet incidunt, rerum voluptas labore, 
+                       quis accusantium commodi necessitatibus nemo expedita facere dicta dolorem quibusdam, animi ipsam.
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <hr>
+    <footer>
+        <p class="float-end"><a href="#">retour en haut</a></p>
+    <p> 2020 - 2021 Travel  - <a href="">Lorem ipsum dolor sit amet consectetur.</a> </p>
+    </footer>
+    <!--
+        Mes Modal
+    -->
+    <div class="modal fade" id="information" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Etre appellez pour des information</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Adresse mail</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Votre demande</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Valider</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modalusa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Les USA</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="https://mistertravel.news/wp-content/uploads/2020/12/Etats-Unis-3-1200x801.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
